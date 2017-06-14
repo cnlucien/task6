@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg-location1 {
+    width: 42px; height: 44px;
+    background: url("image/css_sprites.png") -43px -0;
+    position: absolute;
+    right: 15px;
+}
+.bg-location2 {
+    width: 19px; height: 23px;
+    background: url("image/css_sprites.png") -0 -0;
+}
+.bg-data {
+    width: 24px; height: 24px;
+    background: url("image/css_sprites.png") -19px -0;
+}
+.bg-home {
+    width: 46px; height: 73px;
+    background: url("image/css_sprites.png") -127px -0;
+    vertical-align: middle;
+
+}
+.bg-pen {
+    width: 94px; height: 94px;
+    background: url("image/css_sprites.png") -173px -0;
+    vertical-align: middle;
+
+}
+.bg-my {
+    width: 42px; height: 76px;
+    background: url("image/css_sprites.png") -85px -0;
+    vertical-align: middle;
+
+
+}
+
+
+
+.head{
+    background-color: #60C0CD;
+    padding: 15px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.inline-block{
+    display: inline-block;
+}
+.hirer{
+    background-color: #56A9B3;
+    color: #ffffff;;
+}
+.worker{
+    background-color: #ffffff;
+    color: #60C0CD;
+    position: relative;
+    right: 10px;
+}
+
+
+
+.foot{
+    background-color: #F8FAFB;
+    /*padding: 15px;*/
+    height: 110px;
+    line-height: 110px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+
+}
+.padding{
+    margin:0 !important;
+}
