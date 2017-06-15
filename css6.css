@@ -33,14 +33,27 @@
     background: url("image/css_sprites.png") -85px -0;
     vertical-align: middle;
 }
-
+/*--------------------------------------------------------------------------------------------------------*/
+.position{
+    position: relative;
+    /*overflow: hidden;*/
+}
 .head{
-    background-color: #60C0CD;
-    padding: 15px;
+    width: 100%;
     position: absolute;
     top: 0;
     right: 0;
     left: 0;
+    border-bottom: solid 1px #EAEDEE;
+}
+.head1{
+    width: 100%;
+    background-color: #60C0CD;
+    padding: 15px;
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*right: 0;*/
+    /*left: 0;*/
 }
 button{
     border: none !important;
@@ -60,27 +73,24 @@ button{
     right: 10px;
 }
 .head2{
-    position: absolute;
-    top: 80px;
-    right: 0px;
-    left: 0px;
-    margin: 0;
-    padding: 10px;
-    font-size: 20px;
+
+    padding: 2%;
+    font-size: 17px;
     color: #9A9A9A;
+    margin: 0;
 }
 select{
     border: none !important;
-    padding: 0 30px 0 30px;
 }
 .border-right-left{
     border-right: solid 1px #EAEDEE;
     border-left: solid 1px #EAEDEE;
+
 }
 .border-bottom{
     border-bottom: solid 1px #EAEDEE;
 }
-
+/*----------------------------------------------------------------------body-------------------------------------------*/
 .time-location-img{
     vertical-align: middle;
 }
@@ -96,7 +106,7 @@ select{
     color: #60C0CD;
 
 }
-
+/*-----------------------------------------------------------foot------------------------------------------------------*/
 .foot{
     background-color: #F8FAFB;
     /*padding: 15px;*/
@@ -106,8 +116,6 @@ select{
     bottom: 0px;
     left: 0px;
     right: 0px;
+    margin: 0;
 
-}
-.padding{
-    margin:0 !important;
 }
