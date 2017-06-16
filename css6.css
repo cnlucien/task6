@@ -102,23 +102,20 @@ ul{
 .time-location-img{
     vertical-align: middle;
 }
-.time-location-p{
-    color: #9A9A9A;
-    vertical-align: middle;
-    font-size: 20px;
-}
+
 .h3-clor{
     color: #E63C10;
 }
 .left-button{
     color: #60C0CD;
     position: absolute;
+    right: 0;
 }
 p{
+    color: #9A9A9A;
+    vertical-align: middle;
+    font-size: 20px;
     margin: 0;
-    overflow: hidden; /*自动隐藏文字*/
-    text-overflow: ellipsis;/*文字隐藏后添加省略号*/
-    white-space: nowrap;/*强制不换行*/
 }
 h3{
     margin-top: 10px;
@@ -128,7 +125,11 @@ h3{
     text-overflow: ellipsis;/*文字隐藏后添加省略号*/
     white-space: nowrap;/*强制不换行*/
 }
-
+.nowrap{
+    overflow: hidden; /*自动隐藏文字*/
+    text-overflow: ellipsis;/*文字隐藏后添加省略号*/
+    white-space: nowrap;/*强制不换行*/
+}
 li{
     margin: 0 !important;
     border-bottom: solid 1px #EAEDEE;
@@ -145,13 +146,7 @@ li{
 .line-height{
     line-height: 44px;
 }
-.ellipsis {
-    overflow: hidden; /*自动隐藏文字*/
-    text-overflow: ellipsis;/*文字隐藏后添加省略号*/
-    white-space: nowrap;/*强制不换行*/
-    /*width: 20em;!*不允许出现半汉字截断*!*/
 
-}
 /*-----------------------------------------------------------foot------------------------------------------------------*/
 .foot{
     background-color: #F8FAFB;
