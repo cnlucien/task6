@@ -116,11 +116,17 @@ ul{
 }
 p{
     margin: 0;
+    overflow: hidden; /*自动隐藏文字*/
+    text-overflow: ellipsis;/*文字隐藏后添加省略号*/
+    white-space: nowrap;/*强制不换行*/
 }
 h3{
     margin-top: 10px;
     vertical-align: middle;
     font-size: 1.8rem;
+    overflow: hidden; /*自动隐藏文字*/
+    text-overflow: ellipsis;/*文字隐藏后添加省略号*/
+    white-space: nowrap;/*强制不换行*/
 }
 
 li{
@@ -128,6 +134,7 @@ li{
     border-bottom: solid 1px #EAEDEE;
     padding-top: 10px;
     padding-bottom: 10px;
+
 }
 .li-top{
     border-top: solid 1px #EAEDEE;
@@ -137,6 +144,13 @@ li{
 }
 .line-height{
     line-height: 44px;
+}
+.ellipsis {
+    overflow: hidden; /*自动隐藏文字*/
+    text-overflow: ellipsis;/*文字隐藏后添加省略号*/
+    white-space: nowrap;/*强制不换行*/
+    /*width: 20em;!*不允许出现半汉字截断*!*/
+
 }
 /*-----------------------------------------------------------foot------------------------------------------------------*/
 .foot{
