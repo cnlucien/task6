@@ -75,6 +75,7 @@ button{
     padding: 2%;
     color: #9A9A9A;
     margin: 0;
+    position: relative;
 
 }
 select{
@@ -100,15 +101,20 @@ ul.ul1>li{
 }
 .drop{
     font-size: 17px;
+    display: inline;
 }
 .drop:hover .ul1{
     display: block;
+}
+.ul1 li:hover{
+    background-color: #60C0CD;
 }
 .triangle{
     background: url("image/triangle.png");
     width: 13px;
     height: 8px;
     display: inline-block;
+
 }
 /*----------------------------------------------------------------------body-------------------------------------------*/
 
