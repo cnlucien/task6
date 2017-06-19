@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Title</title>
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        /*div>div{*/
+            /*border-right: solid 1px black;*/
+            /*border-left: solid 1px black;*/
+        /*}*/
+        ul{
+            display: none;
+        }
+
+        .drop:hover ul{
+            display: block;
+        }
+        .triangle{
+            background: url("image/triangle.png");
+            width: 13px;
+            height: 8px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body class="container-fluid">
+    <div class="row text-center">
+        <div class="col-xs-4 drop">
+            所在地
+            <div class="triangle"></div>
+            <ul class="list-unstyled">
+                <li>北京</li>
+                <li>上海</li>
+            </ul>
+
+        </div>
+        <div class="col-xs-4 drop">
+            食宿
+            <div class="triangle"></div>
+            <ul class="list-unstyled">
+                <li>包食宿</li>
+                <li>不包食宿</li>
+            </ul>
+        </div>
+        <div class="col-xs-4 drop">
+            病人情况
+            <div class="triangle"></div>
+            <ul class="list-unstyled">
+                <li>能自理</li>
+                <li>不能自理</li>
+            </ul>
+        </div>
+
+    </div>
+</body>
+</html>

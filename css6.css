@@ -72,11 +72,10 @@ button{
     right: 10px;
 }
 .head2{
-
     padding: 2%;
-
     color: #9A9A9A;
     margin: 0;
+
 }
 select{
     border: none !important;
@@ -89,6 +88,27 @@ select{
 }
 .border-bottom{
     border-bottom: solid 1px #EAEDEE;
+}
+.ul1{
+    display: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+ul.ul1>li{
+    border: none;
+    font-size: 17px;
+}
+.drop{
+    font-size: 17px;
+}
+.drop:hover .ul1{
+    display: block;
+}
+.triangle{
+    background: url("image/triangle.png");
+    width: 13px;
+    height: 8px;
+    display: inline-block;
 }
 /*----------------------------------------------------------------------body-------------------------------------------*/
 
