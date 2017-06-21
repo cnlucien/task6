@@ -72,16 +72,17 @@ button{
     right: 10px;
 }
 .head2{
-    /*padding: 2%;*/
+    /*padding: 2rem;*/
     color: #9A9A9A;
     margin: 0;
     position: relative;
+    border-bottom: solid 1px #EAEDEE;
 
 }
-select{
-    border: none !important;
-    font-size: 17px;
-}
+/*select{*/
+    /*border: none !important;*/
+    /*font-size: 17px;*/
+/*}*/
 .border-right-left{
     border-right: solid 1px #EAEDEE;
     border-left: solid 1px #EAEDEE;
@@ -97,16 +98,20 @@ select{
     position: absolute;
     left: 0;
     right: 0;
-    top: 4rem;
+    top: 4.1rem;
     z-index:1;
 }
 ul.ul1 li{
-    border: solid 1px #EAEDEE;
+    border-right: solid 1px #EAEDEE;
+    border-left: solid 1px #EAEDEE;
+    border-bottom: solid 1px #EAEDEE;
     font-size: 17px;
     z-index:1;
     background-color: white;
-
 }
+/*ul.ul1:first-child{*/
+    /*border-top: solid 1px #EAEDEE;*/
+/*}*/
 ul.ul1 li:hover{
     background-color: #60C0CD;
 }
@@ -116,18 +121,24 @@ ul.ul1 li:hover{
 .drop{
     font-size: 17px;
     display: inline-block;
+    padding: 1rem;
+    position: relative;
 }
 .drop:hover .ul1{
     display: block;
 
 }
-.box{
-    border: solid 1px #EAEDEE;
-    padding: 1rem;
-    position: relative;
-
+.box1{
+    border-right: solid 1px #EAEDEE;
 }
-
+.box2{
+    border-right: solid 1px #EAEDEE;
+}
+span.caret{
+    position: absolute;
+    top: 1.8rem;
+    right: 2rem;
+}
 /*.triangle{*/
     /*background: url("image/triangle.png");*/
     /*width: 13px;*/
@@ -149,13 +160,18 @@ ul.relative{
     vertical-align: middle;
 }
 
-.h3-clor{
+h4{
+    display: inline-block;
     color: #E63C10;
+    /*position: absolute;*/
+    /*right: 5rem;*/
 }
 .left-button{
     color: #60C0CD;
     position: absolute;
-    right: 0;
+    right: 1rem;
+
+
 }
 p{
     color: #9A9A9A;
@@ -187,11 +203,14 @@ li{
     /*border-top: solid 1px #EAEDEE;*/
 /*}*/
 .margin-left{
-    margin-left: 0;
+     margin-left: 0;
 }
-.line-height{
-    line-height: 44px;
+div.margin-left1{
+    margin-left: 15px;
 }
+/*.line-height{*/
+    /*line-height: 44px;*/
+/*}*/
 
 /*-----------------------------------------------------------foot------------------------------------------------------*/
 .foot{
